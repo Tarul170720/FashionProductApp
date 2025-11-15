@@ -81,7 +81,7 @@ const TopBack = () => {
   const ref = useRef();
   const gltf = useLoader(
     GLTFLoader,
-    "/models/topBack.glb"  // ★ FIXED: Use the correct model path
+    "/models/topback.glb"  // ★ FIXED: Use the correct model path
   );
 
 
